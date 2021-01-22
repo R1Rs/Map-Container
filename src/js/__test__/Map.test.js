@@ -25,7 +25,7 @@ test('test translate metod from ErrorRepository', () => {
   expect(received).toBe(expected);
 });
 
-test("test Unknown error from ErrorRepository", () => {
+test('test Unknown error from ErrorRepository', () => {
   const errorRepo = new ErrorRepository();
   const received = errorRepo.translate(1);
   const expected = 'Unknown error';
